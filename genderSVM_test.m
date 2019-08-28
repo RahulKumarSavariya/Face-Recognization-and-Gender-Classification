@@ -65,8 +65,6 @@ end
 
 %%
 
-% % I = imread('D:\SEAS - AU\Course Work\Machine Learning\Assignments\04 Soft Biometrics\wiki_crop\99\16899_1947-04-16_2014.jpg');
-% % I = imread('D:\SEAS - AU\Course Work\Machine Learning\Assignments\04 Soft Biometrics\COSFIRE_Gender_recognition_1_0\Application\GENDER-FERET\female\training_set\0.jpg');
 % I = imread('face.jpg');
 % figure, imshow(I);
 % if (size(I,3)==3)
