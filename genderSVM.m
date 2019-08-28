@@ -5,7 +5,7 @@ close all;
 faceDetector=vision.CascadeObjectDetector('FrontalFaceCART'); %Create a detector object
 faces = [];
 
-% [class, image_paths] = xlsread('D:\SEAS - AU\Course Work\Machine Learning\Assignments\04 Soft Biometrics\COSFIRE_Gender_recognition_1_0\Application\GENDER-FERET\TrainingSet.xlsx');
+% [class, image_paths] = xlsread('xlm file path');
 % class = image_paths(:,1);
 
 load('path_final');
@@ -56,7 +56,7 @@ end
 
 % svmStruct = svmtrain(faces,class,'kernel_function','linear');
 
-% I = imread('D:\SEAS - AU\Course Work\Machine Learning\Assignments\04 Soft Biometrics\COSFIRE_Gender_recognition_1_0\Application\GENDER-FERET\female\test_set\0.jpg');
+% I = imread('path');
 % I = rgb2gray(I);
 % BB = step(faceDetector,I); % Detect faces
 % face = I(BB(1,2):BB(1,2)+BB(1,3),BB(1,1):BB(1,1)+BB(1,4));
